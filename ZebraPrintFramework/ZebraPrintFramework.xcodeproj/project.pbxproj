@@ -30,6 +30,7 @@
 		6516CB7121FF8BEC004A3CC4 /* ZebraPrinterConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6516CB3421FF6889004A3CC4 /* ZebraPrinterConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6516CB7221FF8BEC004A3CC4 /* ZebraPrinterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6516CB4421FF688A004A3CC4 /* ZebraPrinterFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6516CB7321FF8BEC004A3CC4 /* ZplPrintMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6516CB3E21FF6889004A3CC4 /* ZplPrintMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65B3127A21FFA0650010F4F3 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B3127921FFA0650010F4F3 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		6516CB4621FF688A004A3CC4 /* ResponseValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ResponseValidator.h; path = ../ZebraPrintSDK/lib/include/ResponseValidator.h; sourceTree = "<group>"; };
 		6516CB4721FF688A004A3CC4 /* ZebraPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZebraPrinter.h; path = ../ZebraPrintSDK/lib/include/ZebraPrinter.h; sourceTree = "<group>"; };
 		6516CB4821FF688A004A3CC4 /* PrinterStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrinterStatus.h; path = ../ZebraPrintSDK/lib/include/PrinterStatus.h; sourceTree = "<group>"; };
+		65B3127921FFA0650010F4F3 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B3127A21FFA0650010F4F3 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +121,7 @@
 				6516CB1321FF6797004A3CC4 /* ZebraPrintFramework */,
 				6516CB1E21FF6797004A3CC4 /* ZebraPrintFrameworkTests */,
 				6516CB1221FF6797004A3CC4 /* Products */,
+				65B3127821FFA0650010F4F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +150,14 @@
 				6516CB2121FF6797004A3CC4 /* Info.plist */,
 			);
 			path = ZebraPrintFrameworkTests;
+			sourceTree = "<group>";
+		};
+		65B3127821FFA0650010F4F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65B3127921FFA0650010F4F3 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

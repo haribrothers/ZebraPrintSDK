@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'ZebraPrintSDK/lib/**/*.{h,m}'
   s.vendored_libraries = 'ZebraPrintSDK/lib/libZSDK_API.a'
   s.vendored_frameworks = 'ZebraPrintSDK/Frameworks/ZebraPrintFramework.framework'
-  s.frameworks = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit'
+  s.frameworks = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit', 'ExternalAccessory','CoreGraphics','Foundation'
   
   # s.resource_bundles = {
   #   'ZebraPrintSDK' => ['ZebraPrintSDK/Assets/*.png']

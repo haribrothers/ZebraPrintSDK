@@ -31,6 +31,9 @@
     "OpenGLES",
     "QuartzCore",
     "Security",
-    "UIKit"
+    "UIKit",
+    "ExternalAccessory",
+    "CoreGraphics",
+    "Foundation"
   ]
 }
