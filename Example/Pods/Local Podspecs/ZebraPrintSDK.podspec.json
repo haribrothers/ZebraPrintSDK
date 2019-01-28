@@ -1,0 +1,36 @@
+{
+  "name": "ZebraPrintSDK",
+  "version": "0.1.0",
+  "summary": "A short description of ZebraPrintSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/haribrothers@gmail.com/ZebraPrintSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "haribrothers@gmail.com": "haribrothers@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/haribrothers@gmail.com/ZebraPrintSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZebraPrintSDK/lib/**/*.{h,m}",
+  "vendored_libraries": "ZebraPrintSDK/lib/libZSDK_API.a",
+  "vendored_frameworks": "ZebraPrintSDK/Frameworks/ZebraPrintFramework.framework",
+  "frameworks": [
+    "Accelerate",
+    "AVFoundation",
+    "AudioToolbox",
+    "CoreMedia",
+    "CoreVideo",
+    "MobileCoreServices",
+    "OpenGLES",
+    "QuartzCore",
+    "Security",
+    "UIKit"
+  ]
+}

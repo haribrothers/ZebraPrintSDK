@@ -34,12 +34,26 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = ZebraPrintSDK;
 		};
+		6516CB3021FF6798004A3CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6516CB2B21FF6797004A3CC4 /* ZebraPrintFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6516CB1121FF6797004A3CC4;
+			remoteInfo = ZebraPrintFramework;
+		};
+		6516CB3221FF6798004A3CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6516CB2B21FF6797004A3CC4 /* ZebraPrintFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6516CB1A21FF6797004A3CC4;
+			remoteInfo = ZebraPrintFrameworkTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		000C28F5833D5FF5057D343F /* Pods_ZebraPrintSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZebraPrintSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1111A55EC530F45F7CE26623 /* Pods_ZebraPrintSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZebraPrintSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F37DA792B3D2CA173F494BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4F37DA792B3D2CA173F494BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZebraPrintSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZebraPrintSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +73,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6FDE55C87F21DA4156A4902A /* ZebraPrintSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZebraPrintSDK.podspec; path = ../ZebraPrintSDK.podspec; sourceTree = "<group>"; };
+		6516CB2B21FF6797004A3CC4 /* ZebraPrintFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZebraPrintFramework.xcodeproj; path = ../ZebraPrintFramework/ZebraPrintFramework.xcodeproj; sourceTree = "<group>"; };
+		6FDE55C87F21DA4156A4902A /* ZebraPrintSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZebraPrintSDK.podspec; path = ../ZebraPrintSDK.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F79BF1F156E1FB9EE61255F /* Pods-ZebraPrintSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebraPrintSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZebraPrintSDK_Tests/Pods-ZebraPrintSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88A52355463A4D06FEF6E90E /* Pods-ZebraPrintSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebraPrintSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZebraPrintSDK_Example/Pods-ZebraPrintSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		922C9B3B5C26DAFFBE7FC297 /* Pods-ZebraPrintSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebraPrintSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZebraPrintSDK_Example/Pods-ZebraPrintSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B4AF3D4B689DEE64D525FB78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B4AF3D4B689DEE64D525FB78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C5A006948C43F18C6F9473DF /* Pods-ZebraPrintSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebraPrintSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZebraPrintSDK_Tests/Pods-ZebraPrintSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +113,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				6516CB2B21FF6797004A3CC4 /* ZebraPrintFramework.xcodeproj */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ZebraPrintSDK */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -185,6 +201,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		6516CB2C21FF6797004A3CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6516CB3121FF6798004A3CC4 /* ZebraPrintFramework.framework */,
+				6516CB3321FF6798004A3CC4 /* ZebraPrintFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6F7885EC762360B441A7AB63 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,7 +232,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5E52E42B1E057BA4102673FA /* [CP] Embed Pods Frameworks */,
+				A9A5141FD89A586F85E38C0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +289,12 @@
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6516CB2C21FF6797004A3CC4 /* Products */;
+					ProjectRef = 6516CB2B21FF6797004A3CC4 /* ZebraPrintFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* ZebraPrintSDK_Example */,
@@ -271,6 +302,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6516CB3121FF6798004A3CC4 /* ZebraPrintFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZebraPrintFramework.framework;
+			remoteRef = 6516CB3021FF6798004A3CC4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6516CB3321FF6798004A3CC4 /* ZebraPrintFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZebraPrintFrameworkTests.xctest;
+			remoteRef = 6516CB3221FF6798004A3CC4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6003F588195388D20070C39A /* Resources */ = {
@@ -317,28 +365,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZebraPrintSDK_Tests/Pods-ZebraPrintSDK_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E52E42B1E057BA4102673FA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZebraPrintSDK_Example/Pods-ZebraPrintSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZebraPrintSDK/ZebraPrintSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZebraPrintSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZebraPrintSDK_Example/Pods-ZebraPrintSDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8D5D5B5056E03EEDAA00C4A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +407,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A5141FD89A586F85E38C0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZebraPrintSDK_Example/Pods-ZebraPrintSDK_Example-frameworks.sh",
+				"${PODS_ROOT}/../../ZebraPrintSDK/Frameworks/ZebraPrintFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZebraPrintFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZebraPrintSDK_Example/Pods-ZebraPrintSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
