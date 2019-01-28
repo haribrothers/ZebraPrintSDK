@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ZebraPrintSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/haribrothers@gmail.com/ZebraPrintSDK",
+  "homepage": "https://github.com/haribrothers/ZebraPrintSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "haribrothers@gmail.com": "haribrothers@gmail.com"
   },
   "source": {
-    "git": "https://github.com/haribrothers@gmail.com/ZebraPrintSDK.git",
+    "git": "https://github.com/haribrothers/ZebraPrintSDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
