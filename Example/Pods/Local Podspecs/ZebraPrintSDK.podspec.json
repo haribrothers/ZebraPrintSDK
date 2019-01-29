@@ -20,7 +20,7 @@
   },
   "source_files": "ZebraPrintSDK/lib/**/*.{h,m}",
   "vendored_libraries": "ZebraPrintSDK/lib/libZSDK_API.a",
-  "vendored_frameworks": "ZebraPrintSDK/Frameworks/ZebraPrintFramework.framework",
+  "vendored_frameworks": "ZebraPrintSDK/Frameworks/ZebraPrint.framework",
   "frameworks": [
     "Accelerate",
     "AVFoundation",

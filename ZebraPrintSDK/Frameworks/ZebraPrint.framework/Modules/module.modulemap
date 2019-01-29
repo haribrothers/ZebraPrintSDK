@@ -1,0 +1,6 @@
+framework module ZebraPrint {
+  umbrella header "ZebraPrint.h"
+
+  export *
+  module * { export * }
+}

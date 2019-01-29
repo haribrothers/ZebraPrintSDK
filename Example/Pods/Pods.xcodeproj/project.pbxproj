@@ -54,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0044D4E41A64D936EBA2879157CABF2D /* ZebraPrint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZebraPrint.framework; path = ZebraPrintSDK/Frameworks/ZebraPrint.framework; sourceTree = "<group>"; };
 		01EB5CDC4E7AD21B99D5603F8FE619CA /* Pods-ZebraPrintSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZebraPrintSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		0477A5613C4ACC9F098DD0BCBA87F5D4 /* Pods_ZebraPrintSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZebraPrintSDK_Tests.framework; path = "Pods-ZebraPrintSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD35EE208D8D62C07596C6E757A4D0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		2C33B57BE6A3262915B44A94158483AB /* ZebraPrintFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZebraPrintFramework.framework; path = ZebraPrintSDK/Frameworks/ZebraPrintFramework.framework; sourceTree = "<group>"; };
 		34B3FD2B2DE6314B61899DA1664EF438 /* Pods-ZebraPrintSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZebraPrintSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F72B71AC6CC16ECE15A5B0A5AB97AE3 /* PrinterStatusMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrinterStatusMessages.h; path = ZebraPrintSDK/lib/include/PrinterStatusMessages.h; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 		499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4F5102A51B209D8F04443A84C1D498C7 /* Pods-ZebraPrintSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZebraPrintSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		52E811949FE8C5411A981DB1929EC980 /* libZSDK_API.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libZSDK_API.a; path = ZebraPrintSDK/lib/libZSDK_API.a; sourceTree = "<group>"; };
 		564430EAA78E7C0A953C98BF8AE26E4F /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		5D46FC6B68DAF7337CEABB53A7CBCFB6 /* ZebraErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZebraErrorCode.h; path = ZebraPrintSDK/lib/include/ZebraErrorCode.h; sourceTree = "<group>"; };
 		5EAE316700C1BC94693FDF17DF2B9AE1 /* TcpPrinterConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TcpPrinterConnection.h; path = ZebraPrintSDK/lib/include/TcpPrinterConnection.h; sourceTree = "<group>"; };
@@ -107,6 +106,7 @@
 		A43496AE8598E3F8934015041F2CC90B /* Pods-ZebraPrintSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZebraPrintSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		A91DDE5E2E95EF1E4A920AD854DB045D /* GraphicsUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GraphicsUtil.h; path = ZebraPrintSDK/lib/include/GraphicsUtil.h; sourceTree = "<group>"; };
 		AEC779303075F56758AFFC0BC90B4CBE /* FormatUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FormatUtil.h; path = ZebraPrintSDK/lib/include/FormatUtil.h; sourceTree = "<group>"; };
+		B6B03F9DCC30FF094D77927B062C7D30 /* libZSDK_API.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libZSDK_API.a; path = ZebraPrintSDK/lib/libZSDK_API.a; sourceTree = "<group>"; };
 		B6E8232164C2BE28597516D635519FB4 /* Pods-ZebraPrintSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZebraPrintSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B82FB375B98CAC3D5426BADCE136723B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BB635FF6CE0352080F2E4A55B7FA623E /* Pods-ZebraPrintSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZebraPrintSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -162,15 +162,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F48272C10151548D209D1909056B3A0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				52E811949FE8C5411A981DB1929EC980 /* libZSDK_API.a */,
-				2C33B57BE6A3262915B44A94158483AB /* ZebraPrintFramework.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1EBD46818714F8BE58753F7F9B38D221 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,11 +215,20 @@
 				1FA6833267FB7333083EFCAE6D95C6BC /* ZebraPrinterConnection.h */,
 				C4DFBEFCD08BC7FC87C3D7D18726BC2F /* ZebraPrinterFactory.h */,
 				65601E345C7B6DFCBD6EFD44B99AE2B4 /* ZplPrintMode.h */,
-				0F48272C10151548D209D1909056B3A0 /* Frameworks */,
+				5978662DAC9F63EE40B62637A35DCF5B /* Frameworks */,
 				3E44BB3131F3E9890C54FC9E0BA938B7 /* Pod */,
 			);
 			name = ZebraPrintSDK;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		5978662DAC9F63EE40B62637A35DCF5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6B03F9DCC30FF094D77927B062C7D30 /* libZSDK_API.a */,
+				0044D4E41A64D936EBA2879157CABF2D /* ZebraPrint.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5DE15A8225BF6EF29D484EEF3F1137C2 /* Support Files */ = {

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ZebraPrint/ZebraPrint.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ZebraPrintSDK.xcodeproj">
    </FileRef>
    <FileRef
