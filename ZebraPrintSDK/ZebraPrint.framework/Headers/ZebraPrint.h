@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <ZebraPrint/ZebraPrinter.h>
+#import <ZebraPrint/MfiBtPrinterConnection.h>
 //! Project version number for ZebraPrint.
 FOUNDATION_EXPORT double ZebraPrintVersionNumber;
 
